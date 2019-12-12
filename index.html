@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/YouTube_Logo.svg/1280px-YouTube_Logo.svg.png" alt=""></a>
+            </div>
+            <!-- Mobile Button -->
+            <div class="menu_open" id="menu_open">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- Mobile Button End -->
+            <div class="search desktop">
+                <form action="">
+                    <input type="text" placeholder="Search...">
+                </form>
+            </div>
+            <div class="menu desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a class="active" href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="social desktop">
+                <ul>
+                    <li><a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+                    <!-- Mobile Menu -->
+            <div class="mobile_menu" id="mobile_menu"></div>
+                    <!-- Mobile End -->
+    </header>
+</body>
+</html>
